@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Sono", sans-serif;
+            background-color: bisque;
+        }
+        img {
+            height: 200px;
+        }
+        .container {
+            width: 200px;
+            gap: 20px;
+            display: flex;
+            
+        }
+        h1 {
+            font-size: 15px;
+            margin: 20px;
+            text-align: center;
+        }
+        .price {
+            background-color: #ff6600;
+            border-radius: 5%;
+            margin-left: 40%;
+            color: white;
+            margin-bottom: 10px;
+            border: none;
+            
+        }
+        .container div {
+            background-color:  rgb(236, 233, 233);
+            width: 200px;
+            margin: 20px;
+            border-radius: 5%;
+        }
+        @media (max-width: 480px) {
+            .container {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div>
+        <img src="./IMG-20240905-WA0019.jpg" alt="makeup kit" />
+        <h1>Makeup Kit</h1>
+        <button class="price">#35000</button>
+    </div>
+    <div>
+        <img src="./IMG-20240905-WA0020.jpg" alt="sunscreen lotion" />
+        <h1>Sunscreen Lotion</h1>
+        <button class="price">#6000</button>
+    </div>
+    <div>
+        <img src="./IMG-20240905-WA0021.jpg" alt="black summer powder collection" />
+        <h1>Black Summer Powder Collection</h1>
+        <button class="price">#11000</button>
+    </div>
+    <div>
+        <img src="./IMG-20240905-WA0022.jpg" alt="lip gloss" />
+        <h1>Lip Gloss</h1>
+        <button class="price">#2000</button>
+    </div>
+    <div>
+        <img src="./IMG-20240905-WA0023.jpg" alt="nivea radiant" />
+        <h1>Nivea Radient</h1>
+        <button class="price">4200#</button>
+    </div>
+    </div>
+</body>
+</html>
